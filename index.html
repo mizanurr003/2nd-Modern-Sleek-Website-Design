@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://static.readdy.ai/static/e.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Virtual Assistants - Premium Virtual Assistant Services</title>
+    <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1e40af',
+                        secondary: '#f59e0b'
+                    },
+                    borderRadius: {
+                        'none': '0px',
+                        'sm': '4px',
+                        DEFAULT: '8px',
+                        'md': '12px',
+                        'lg': '16px',
+                        'xl': '20px',
+                        '2xl': '24px',
+                        '3xl': '32px',
+                        'full': '9999px',
+                        'button': '8px'
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" rel="stylesheet">
+    <style>
+        :where([class^="ri-"])::before {
+            content: "\f3c2";
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .hero-bg {
+            background-image: url('https://readdy.ai/api/search-image?query=modern%20professional%20office%20environment%20with%20clean%20white%20background%2C%20premium%20virtual%20assistant%20workspace%2C%20sophisticated%20business%20setting%2C%20natural%20lighting%2C%20minimal%20design%2C%20corporate%20atmosphere%2C%20elegant%20furniture%2C%20technology%20elements%2C%20professional%20ambiance&width=1920&height=1080&seq=hero001&orientation=landscape');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+
+<body class="bg-white">
+    <header class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center">
+                    <h1 class="text-2xl font-['Pacifico'] text-primary">logo</h1>
+                </div>
+                <nav class="hidden md:flex items-center space-x-8">
+                    <a href="#" class="text-gray-700 hover:text-primary transition-colors">Home</a>
+                    <a href="#" class="text-gray-700 hover:text-primary transition-colors">About</a>
+                    <a href="#" class="text-gray-700 hover:text-primary transition-colors">Services</a>
+                    <a href="#" class="text-gray-700 hover:text-primary transition-colors">Pricing</a>
+                    <a href="#" class="text-gray-700 hover:text-primary transition-colors">Blog</a>
+                    <a href="#" class="text-gray-700 hover:text-primary transition-colors">Contact</a>
+                </nav>
+                <div class="hidden md:flex items-center space-x-4">
+                    <button class="px-4 py-2 text-primary border border-primary !rounded-button hover:bg-primary hover:text-white transition-colors whitespace-nowrap">
+                        Get Started
+                    </button>
+                    <button class="px-4 py-2 bg-primary text-white !rounded-button hover:bg-blue-700 transition-colors whitespace-nowrap">
+                        Book a Call
+                    </button>
+                </div>
+                <button class="md:hidden w-6 h-6 flex items-center justify-center" id="mobile-menu-toggle">
+                    <i class="ri-menu-line ri-lg"></i>
+                </button>
+            </div>
+        </div>
+        <div class="md:hidden bg-white border-t border-gray-100 hidden" id="mobile-menu">
+            <div class="px-4 py-4 space-y-3">
+                <a href="#" class="block text-gray-700 hover:text-primary">Home</a>
+                <a href="#" class="block text-gray-700 hover:text-primary">About</a>
+                <a href="#" class="block text-gray-700 hover:text-primary">Services</a>
+                <a href="#" class="block text-gray-700 hover:text-primary">Pricing</a>
+                <a href="#" class="block text-gray-700 hover:text-primary">Blog</a>
+                <a href="#" class="block text-gray-700 hover:text-primary">Contact</a>
+                <div class="flex flex-col space-y-2 pt-4 border-t border-gray-100">
+                    <button class="px-4 py-2 text-primary border border-primary !rounded-button hover:bg-primary hover:text-white transition-colors whitespace-nowrap">
+                        Get Started
+                    </button>
+                    <button class="px-4 py-2 bg-primary text-white !rounded-button hover:bg-blue-700 transition-colors whitespace-nowrap">
+                        Book a Call
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-bg min-h-screen flex items-center relative">
+            <div class="absolute inset-0 bg-gradient-to-r from-white/95 via-white/80 to-transparent"></div>
+            <div class="relative w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="max-w-2xl">
+                    <h1 class="text-5xl md:text-6xl font-bold text-gray-900 leading-tight mb-6">
+                        Premium Virtual Assistants for
+                        <span class="text-primary">Elite Businesses</span>
+                    </h1>
+                    <p class="text-xl text-gray-600 mb-8 leading-relaxed">
+                        Scale your business with dedicated, highly-skilled virtual assistants. From administrative tasks to specialized projects, we deliver excellence that exceeds expectations.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <button class="px-8 py-4 bg-primary text-white text-lg !rounded-button hover:bg-blue-700 transition-colors whitespace-nowrap">
+                            Start Your Free Consultation
+                        </button>
+                        <button class="px-8 py-4 border-2 border-gray-300 text-gray-700 text-lg !rounded-button hover:border-primary hover:text-primary transition-colors whitespace-nowrap">
+                            View Our Services
+                        </button>
+                    </div>
+                    <div class="flex items-center mt-8 space-x-6">
+                        <div class="flex items-center">
+                            <div class="flex -space-x-2">
+                                <div class="w-8 h-8 rounded-full bg-blue-500 border-2 border-white"></div>
+                                <div class="w-8 h-8 rounded-full bg-green-500 border-2 border-white"></div>
+                                <div class="w-8 h-8 rounded-full bg-purple-500 border-2 border-white"></div>
+                            </div>
+                            <span class="ml-3 text-sm text-gray-600">500+ Happy Clients</span>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="flex text-yellow-400">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </div>
+                            <span class="ml-2 text-sm text-gray-600">4.9/5 Rating</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-bold text-gray-900 mb-4">Why Choose Elite Virtual Assistants?</h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">We deliver premium virtual assistant services that help businesses scale efficiently while maintaining the highest standards of quality and professionalism.</p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+                        <div class="w-12 h-12 flex items-center justify-center bg-primary/10 rounded-lg mb-6">
+                            <i class="ri-shield-check-line ri-xl text-primary"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-4">Vetted Professionals</h3>
+                        <p class="text-gray-600">Rigorously screened VAs with proven track records and specialized skills in their respective fields.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+                        <div class="w-12 h-12 flex items-center justify-center bg-primary/10 rounded-lg mb-6">
+                            <i class="ri-time-line ri-xl text-primary"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-4">24/7 Availability</h3>
+                        <p class="text-gray-600">Round-the-clock support across different time zones to ensure your business never stops.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+                        <div class="w-12 h-12 flex items-center justify-center bg-primary/10 rounded-lg mb-6">
+                            <i class="ri-rocket-line ri-xl text-primary"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-4">Rapid Deployment</h3>
+                        <p class="text-gray-600">Get matched with the perfect VA within 48 hours and start delegating tasks immediately.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+                        <div class="w-12 h-12 flex items-center justify-center bg-primary/10 rounded-lg mb-6">
+                            <i class="ri-trophy-line ri-xl text-primary"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-4">Premium Quality</h3>
+                        <p class="text-gray-600">Dedicated account management and quality assurance to exceed your expectations every time.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-bold text-gray-900 mb-4">Our Premium Services</h2>
+                    <p class="text-xl text-gray-600">Comprehensive virtual assistant solutions tailored to your business needs</p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="group bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
+                        <div class="h-48 bg-cover bg-center" style="background-image: url('https://readdy.ai/api/search-image?query=professional%20administrative%20assistant%20working%20on%20computer%2C%20organized%20office%20desk%2C%20business%20documents%2C%20clean%20modern%20workspace%2C%20productivity%20tools%2C%20professional%20woman%20typing%2C%20efficient%20workflow&width=400&height=300&seq=admin001&orientation=landscape')"></div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold text-gray-900 mb-3">Administrative Support</h3>
+                            <p class="text-gray-600 mb-4">Email management, scheduling, data entry, and general administrative tasks to keep your business running smoothly.</p>
+                            <button class="text-primary font-medium hover:text-blue-700 transition-colors">Learn More →</button>
+                        </div>
+                    </div>
+                    <div class="group bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
+                        <div class="h-48 bg-cover bg-center" style="background-image: url('https://readdy.ai/api/search-image?query=digital%20marketing%20specialist%20working%20on%20social%20media%20campaigns%2C%20marketing%20analytics%20dashboard%2C%20content%20creation%2C%20social%20media%20graphics%2C%20marketing%20strategy%2C%20professional%20workspace&width=400&height=300&seq=marketing001&orientation=landscape')"></div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold text-gray-900 mb-3">Digital Marketing</h3>
+                            <p class="text-gray-600 mb-4">Social media management, content creation, SEO, and digital marketing campaigns to grow your online presence.</p>
+                            <button class="text-primary font-medium hover:text-blue-700 transition-colors">Learn More →</button>
+                        </div>
+                    </div>
+                    <div class="group bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
+                        <div class="h-48 bg-cover bg-center" style="background-image: url('https://readdy.ai/api/search-image?query=customer%20service%20representative%20with%20headset%2C%20professional%20call%20center%20setup%2C%20customer%20support%20dashboard%2C%20friendly%20service%20agent%2C%20modern%20office%20environment%2C%20customer%20satisfaction&width=400&height=300&seq=support001&orientation=landscape')"></div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold text-gray-900 mb-3">Customer Support</h3>
+                            <p class="text-gray-600 mb-4">Professional customer service, live chat support, and help desk management to enhance customer satisfaction.</p>
+                            <button class="text-primary font-medium hover:text-blue-700 transition-colors">Learn More →</button>
+                        </div>
+                    </div>
+                    <div class="group bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
+                        <div class="h-48 bg-cover bg-center" style="background-image: url('https://readdy.ai/api/search-image?query=content%20writer%20creating%20blog%20posts%2C%20creative%20writing%20workspace%2C%20laptop%20with%20articles%2C%20content%20strategy%2C%20professional%20blogger%2C%20modern%20office%20setup%2C%20writing%20tools&width=400&height=300&seq=content001&orientation=landscape')"></div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold text-gray-900 mb-3">Content Creation</h3>
+                            <p class="text-gray-600 mb-4">Blog writing, copywriting, graphic design, and multimedia content creation to engage your audience.</p>
+                            <button class="text-primary font-medium hover:text-blue-700 transition-colors">Learn More →</button>
+                        </div>
+                    </div>
+                    <div class="group bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
+                        <div class="h-48 bg-cover bg-center" style="background-image: url('https://readdy.ai/api/search-image?query=e-commerce%20specialist%20managing%20online%20store%2C%20product%20listings%2C%20inventory%20management%2C%20online%20shopping%20platform%2C%20digital%20commerce%2C%20professional%20workspace&width=400&height=300&seq=ecommerce001&orientation=landscape')"></div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold text-gray-900 mb-3">E-commerce Support</h3>
+                            <p class="text-gray-600 mb-4">Product listing, inventory management, order processing, and marketplace optimization for online stores.</p>
+                            <button class="text-primary font-medium hover:text-blue-700 transition-colors">Learn More →</button>
+                        </div>
+                    </div>
+                    <div class="group bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
+                        <div class="h-48 bg-cover bg-center" style="background-image: url('https://readdy.ai/api/search-image?query=technical%20specialist%20working%20on%20web%20development%2C%20coding%20on%20multiple%20monitors%2C%20software%20development%2C%20technical%20support%2C%20programming%20workspace%2C%20modern%20tech%20office&width=400&height=300&seq=tech001&orientation=landscape')"></div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold text-gray-900 mb-3">Technical Support</h3>
+                            <p class="text-gray-600 mb-4">Web development, software support, technical troubleshooting, and IT assistance for your business needs.</p>
+                            <button class="text-primary font-medium hover:text-blue-700 transition-colors">Learn More →</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-bold text-gray-900 mb-4">What Our Clients Say</h2>
+                    <p class="text-xl text-gray-600">Don't just take our word for it - hear from businesses that have transformed with our VAs</p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-white p-8 rounded-xl shadow-sm">
+                        <div class="flex text-yellow-400 mb-4">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                        </div>
+                        <p class="text-gray-600 mb-6">"Our VA from Elite has been absolutely phenomenal. She's helped us streamline our operations and increased our productivity by 40%. The quality of work is consistently excellent."</p>
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 rounded-full bg-blue-500 flex items-center justify-center text-white font-semibold">
+                                SM
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="font-semibold text-gray-900">Sarah Mitchell</h4>
+                                <p class="text-sm text-gray-600">CEO, TechFlow Solutions</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white p-8 rounded-xl shadow-sm">
+                        <div class="flex text-yellow-400 mb-4">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                        </div>
+                        <p class="text-gray-600 mb-6">"The level of professionalism and expertise is unmatched. Our dedicated VA handles our social media and customer support flawlessly. Highly recommend Elite VAs!"</p>
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 rounded-full bg-green-500 flex items-center justify-center text-white font-semibold">
+                                MR
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="font-semibold text-gray-900">Michael Rodriguez</h4>
+                                <p class="text-sm text-gray-600">Founder, GrowthMark Agency</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white p-8 rounded-xl shadow-sm">
+                        <div class="flex text-yellow-400 mb-4">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                        </div>
+                        <p class="text-gray-600 mb-6">"We've tried other VA services before, but Elite is in a league of their own. The quality, reliability, and communication are exceptional. They've become an integral part of our team."</p>
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 rounded-full bg-purple-500 flex items-center justify-center text-white font-semibold">
+                                JC
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="font-semibold text-gray-900">Jennifer Chen</h4>
+                                <p class="text-sm text-gray-600">Operations Director, Innovate Labs</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-bold text-gray-900 mb-4">Flexible Pricing Plans</h2>
+                    <p class="text-xl text-gray-600">Choose the perfect plan for your business needs</p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                    <div class="bg-white rounded-xl shadow-sm border-2 border-gray-100 p-8">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">Starter</h3>
+                        <p class="text-gray-600 mb-6">Perfect for small businesses</p>
+                        <div class="mb-6">
+                            <span class="text-4xl font-bold text-gray-900">$899</span>
+                            <span class="text-gray-600">/month</span>
+                        </div>
+                        <ul class="space-y-3 mb-8">
+                            <li class="flex items-center">
+                                <i class="ri-check-line text-green-500 mr-3"></i>
+                                <span class="text-gray-600">20 hours per week</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="ri-check-line text-green-500 mr-3"></i>
+                                <span class="text-gray-600">Dedicated VA</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="ri-check-line text-green-500 mr-3"></i>
+                                <span class="text-gray-600">Basic reporting</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="ri-check-line text-green-500 mr-3"></i>
+                                <span class="text-gray-600">Email support</span>
+                            </li>
+                        </ul>
+                        <button class="w-full px-6 py-3 border border-primary text-primary !rounded-button hover:bg-primary hover:text-white transition-colors whitespace-nowrap">
+                            Get Started
+                        </button>
+                    </div>
+                    <div class="bg-white rounded-xl shadow-lg border-2 border-primary p-8 relative">
+                        <div class="absolute -top-3 left-1/2 transform -translate-x-1/2">
+                            <span class="bg-primary text-white px-4 py-1 rounded-full text-sm font-medium">Most Popular</span>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">Professional</h3>
+                        <p class="text-gray-600 mb-6">Ideal for growing companies</p>
+                        <div class="mb-6">
+                            <span class="text-4xl font-bold text-gray-900">$1,599</span>
+                            <span class="text-gray-600">/month</span>
+                        </div>
+                        <ul class="space-y-3 mb-8">
+                            <li class="flex items-center">
+                                <i class="ri-check-line text-green-500 mr-3"></i>
+                                <span class="text-gray-600">40 hours per week</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="ri-check-line text-green-500 mr-3"></i>
+                                <span class="text-gray-600">Dedicated VA + backup</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="ri-check-line text-green-500 mr-3"></i>
+                                <span class="text-gray-600">Advanced reporting</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="ri-check-line text-green-500 mr-3"></i>
+                                <span class="text-gray-600">Priority support</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="ri-check-line text-green-500 mr-3"></i>
+                                <span class="text-gray-600">Account manager</span>
+                            </li>
+                        </ul>
+                        <button class="w-full px-6 py-3 bg-primary text-white !rounded-button hover:bg-blue-700 transition-colors whitespace-nowrap">
+                            Get Started
+                        </button>
+                    </div>
+                    <div class="bg-white rounded-xl shadow-sm border-2 border-gray-100 p-8">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">Enterprise</h3>
+                        <p class="text-gray-600 mb-6">For large organizations</p>
+                        <div class="mb-6">
+                            <span class="text-4xl font-bold text-gray-900">$2,999</span>
+                            <span class="text-gray-600">/month</span>
+                        </div>
+                        <ul class="space-y-3 mb-8">
+                            <li class="flex items-center">
+                                <i class="ri-check-line text-green-500 mr-3"></i>
+                                <span class="text-gray-600">Full-time VA team</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="ri-check-line text-green-500 mr-3"></i>
+                                <span class="text-gray-600">Multiple specialists</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="ri-check-line text-green-500 mr-3"></i>
+                                <span class="text-gray-600">Custom reporting</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="ri-check-line text-green-500 mr-3"></i>
+                                <span class="text-gray-600">24/7 support</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="ri-check-line text-green-500 mr-3"></i>
+                                <span class="text-gray-600">Dedicated success manager</span>
+                            </li>
+                        </ul>
+                        <button class="w-full px-6 py-3 border border-primary text-primary !rounded-button hover:bg-primary hover:text-white transition-colors whitespace-nowrap">
+                            Contact Sales
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20 bg-primary text-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="text-4xl font-bold mb-4">Ready to Scale Your Business?</h2>
+                <p class="text-xl mb-8 max-w-3xl mx-auto opacity-90">
+                    Join hundreds of successful businesses that have transformed their operations with our premium virtual assistant services. Get started with a free consultation today.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <button class="px-8 py-4 bg-white text-primary text-lg font-semibold !rounded-button hover:bg-gray-100 transition-colors whitespace-nowrap">
+                        Book Free Consultation
+                    </button>
+                    <button class="px-8 py-4 border-2 border-white text-white text-lg font-semibold !rounded-button hover:bg-white hover:text-primary transition-colors whitespace-nowrap">
+                        View All Services
+                    </button>
+                </div>
+                <div class="flex items-center justify-center mt-8 space-x-8">
+                    <div class="flex items-center">
+                        <i class="ri-shield-check-line ri-lg mr-2"></i>
+                        <span>Money-back Guarantee</span>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="ri-time-line ri-lg mr-2"></i>
+                        <span>48-hour Matching</span>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="ri-customer-service-line ri-lg mr-2"></i>
+                        <span>24/7 Support</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-900 text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-2xl font-['Pacifico'] mb-4">logo</h3>
+                    <p class="text-gray-400 mb-6">Premium virtual assistant services for elite businesses. Scale efficiently with our dedicated professionals.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors">
+                            <i class="ri-facebook-fill"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors">
+                            <i class="ri-linkedin-fill"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Services</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Administrative Support</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Digital Marketing</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Customer Support</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Content Creation</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">E-commerce Support</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Technical Support</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Company</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">About Us</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Pricing</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Blog</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">FAQs</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Contact</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Careers</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Stay Updated</h4>
+                    <p class="text-gray-400 mb-4">Subscribe to our newsletter for the latest updates and business tips.</p>
+                    <form class="space-y-3">
+                        <input type="email" placeholder="Enter your email" class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-primary">
+                        <button class="w-full px-4 py-3 bg-primary text-white !rounded-button hover:bg-blue-700 transition-colors whitespace-nowrap">
+                            Subscribe
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 text-sm">© 2025 Elite Virtual Assistants. All rights reserved.</p>
+                <div class="flex space-x-6 mt-4 md:mt-0">
+                    <a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">Privacy Policy</a>
+                    <a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">Terms of Service</a>
+                    <a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script id="mobile-menu-script">
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
+            const mobileMenu = document.getElementById('mobile-menu');
+
+            mobileMenuToggle.addEventListener('click', function() {
+                mobileMenu.classList.toggle('hidden');
+            });
+        });
+    </script>
+
+    <script id="smooth-scroll-script">
+        document.addEventListener('DOMContentLoaded', function() {
+            const links = document.querySelectorAll('a[href^="#"]');
+
+            links.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
